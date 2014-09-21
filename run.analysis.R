@@ -18,7 +18,7 @@ path <- getwd()
 
 # download the data and put it in data folder
 
-#url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 f <- "Dataset.zip"
 if (!file.exists(path)) {
    dir.create(path)
